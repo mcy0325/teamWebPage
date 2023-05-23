@@ -7,7 +7,7 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Hugo is for lovers</title>
+<title>Tools</title>
 <meta name="author" content="DevCows" />
 
 
@@ -36,7 +36,7 @@
 
 
 
-<link href="/teamWebPage/css/custom.css?1684307684" rel="stylesheet">
+<link href="/teamWebPage/css/custom.css?1684808559" rel="stylesheet">
 
 
 
@@ -66,28 +66,28 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Hugo is for lovers">
+<meta property="og:title" content="Tools">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://mcy0325.github.io/teamWebPage/oss/hugo-is-for-lovers/" />
+<meta property="og:url" content="https://mcy0325.github.io/teamWebPage/docker/tools/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
-<meta property="og:image" content="https://mcy0325.github.io/teamWebPage/img/banners/banner-3.jpg">
-<meta property="og:image:type" content="image/jpg">
+<meta property="og:image" content="https://mcy0325.github.io/teamWebPage/img/sharing-default.png">
+<meta property="og:image:type" content="image/png">
 
 
 
-  <meta property="og:image:width" content="1000">
-  <meta property="og:image:height" content="750">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="420">
 
 
-<meta property="og:updated_time" content="2015-08-03T13:39:46&#43;0200">
+<meta property="og:updated_time" content="2021-08-01T21:29:20&#43;0200">
 
 
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Hugo is for lovers">
+<meta name="twitter:title" content="Tools">
 
-<meta name="twitter:image" content="https://mcy0325.github.io/teamWebPage/img/banners/banner-3.jpg">
+<meta name="twitter:image" content="https://mcy0325.github.io/teamWebPage/img/sharing-default.png">
 
 <meta name="twitter:description" content="Site template made by Devcows using Hugo">
 
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Hugo is for lovers logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Hugo is for lovers logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="Tools logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="Tools logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Hugo is for lovers - go to homepage</span>
+                    <span class="sr-only">Tools - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -201,7 +201,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/teamWebPage/oss/">OSS</a>
+                    <a href="/teamWebPage/docker/">DOCKER</a>
                   </li>
                   
                   
@@ -306,7 +306,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Hugo is for lovers</h1>
+                <h1>Tools</h1>
             </div>
         </div>
     </div>
@@ -325,8 +325,10 @@
                         
                           <p class="text-muted text-uppercase mb-small text-right">
                             
+			      By <a href="/teamWebPage/authors/wikipedia">wikipedia</a>
                             
                             
+                            
                               
                               
                                   
@@ -353,66 +355,15 @@
                               
                                   
                               
-                              August 3, 2015
+                              August 1, 2021
                             
                           </p>
                         
 
                         <div id="post-content">
-                          <h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="http://github.com/spf13/hugo">hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p>
-<pre><code>git clone https://github.com/spf13/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-<p>Stop the Hugo process by hitting ctrl+c.</p>
-<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
-content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-<code>docs/content/overview/quickstart.md</code>.</p>
-<p>Change and save this file.. Notice what happened in your terminal.</p>
-<pre><code>&gt; Change detected, rebuilding site
-
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 26 ms
-</code></pre>
-<p>Refresh the browser and observe that the typo is now fixed.</p>
-<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
-<h2 id="step-4-have-fun">Step 4. Have fun</h2>
-<p>The best way to learn something is to play with it.</p>
+                          <p>Docker Compose is a tool for defining and running multi-container Docker applications.It uses YAML files to configure the application&rsquo;s services and performs the creation and start-up process of all the containers with a single command. The docker-compose CLI utility allows users to run commands on multiple containers at once, for example, building images, scaling containers, running containers that were stopped, and more. Commands related to image manipulation, or user-interactive options, are not relevant in Docker Compose because they address one container. The docker-compose.yml file is used to define an application&rsquo;s services and includes various configuration options. For example, the build option defines configuration options such as the Dockerfile path, the command option allows one to override default Docker commands, and more. The first public beta version of Docker Compose (version 0.0.1) was released on December 21, 2013. The first production-ready version (1.0) was made available on October 16, 2014.</p>
+<p>Docker Swarm provides native clustering functionality for Docker containers, which turns a group of Docker engines into a single virtual Docker engine. In Docker 1.12 and higher, Swarm mode is integrated with Docker Engine. The docker swarm CLI utility allows users to run Swarm containers, create discovery tokens, list nodes in the cluster, and more. The docker node CLI utility allows users to run various commands to manage nodes in a swarm, for example, listing the nodes in a swarm, updating nodes, and removing nodes from the swarm. Docker manages swarms using the Raft consensus algorithm. According to Raft, for an update to be performed, the majority of Swarm nodes need to agree on the update.</p>
+<p>Docker Volume facilitates the independent persistence of data, allowing data to remain even after the container is deleted or re-created.</p>
 
                         </div>
                         
@@ -490,19 +441,19 @@ Having nearly instant feedback enables you to have your creativity flow without 
             
             
             <li>
-                <a href="/teamWebPage/categories/lorem">LOREM (8)</a>
+                <a href="/teamWebPage/categories/lorem">LOREM (6)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/programming">PROGRAMMING (12)</a>
+                <a href="/teamWebPage/categories/programming">PROGRAMMING (9)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/pseudo">PSEUDO (8)</a>
+                <a href="/teamWebPage/categories/pseudo">PSEUDO (6)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/starting">STARTING (4)</a>
+                <a href="/teamWebPage/categories/starting">STARTING (3)</a>
             </li>
             
         </ul>
