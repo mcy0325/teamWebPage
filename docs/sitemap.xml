@@ -53,9 +53,6 @@
     <loc>https://mcy0325.github.io/teamWebPage/container/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/oss/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
@@ -78,6 +75,9 @@
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/tags/theme/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://mcy0325.github.io/teamWebPage/linux/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/authors/jane-doe/</loc>
@@ -107,10 +107,10 @@
     <loc>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/creating-a-new-theme/</loc>
+    <loc>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</loc>
+    <loc>https://mcy0325.github.io/teamWebPage/linux/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/contact/</loc>
