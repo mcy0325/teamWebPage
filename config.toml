@@ -60,9 +60,9 @@ pluralizelisttitles = false
     parent     = "menu.home"
 
 [[menu.main]]
-    name       = "DOCKER"
-    identifier = "menu.docker"
-    url        = "/docker/"
+    name       = "OSS"
+    identifier = "menu.oss"
+    url        = "/oss/"
     weight     = 2
 
 [[menu.main]]
@@ -132,7 +132,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["docker", "linux", "container", "git"]
+    mainSections = ["oss", "linux", "container", "git"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
