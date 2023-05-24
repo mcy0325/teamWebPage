@@ -7,13 +7,9 @@ banner = "img/banners/banner-4.jpg"
 authors = ["John Doe"]
 +++
 
-I'm a post with multiple categories in the frontmatter:
+# 리눅스의 역사
+리눅스(Linux)는 1991년 9월 17일 리누스 토르발스가 처음 출시한 운영 체제 커널인 리눅스 커널에 기반을 둔 오픈 소스 유닉스 계열 운영 체제 계열이다. 리눅스는 일반적으로 리눅스 배포판 안에 패키지 처리된다.
 
-    categories = ["programming","lorem","pseudo"]
+2023년 1월 Linux에서 Windows 앱을 직접 실행해주는 Wine이 버전 8.0으로 업그레이드 되면서 호환성과 성능이 크게 개선되고 있다. DLL 계층이 복잡한 윈도우 유틸러티와 게임을 설치 관리해주는 Wine기반의 Bottles가 등장하면서 리눅스에서 윈도우 앱 직접 실행이 매우 편리해 졌다.
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
-
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
-
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+배포판에는 리눅스 커널과 지원 시스템 소프트웨어, 그리고 라이브러리를 포함하고 있으며 이들 가운데 다수가 GNU 프로젝트에 의해 제공된다. 수많은 리눅스 배포판은 배포판 이름에 "리눅스"라는 단어를 사용하지만 자유 소프트웨어 재단은 GNU 소프트웨어의 중요성을 강조하기 위해 (이름에 일부 논란이 있기는 하지만) GNU/리눅스(GNU/Linux)라는 이름을 사용한다.[9][10]
