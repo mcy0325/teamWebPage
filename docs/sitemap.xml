@@ -86,9 +86,6 @@
     <loc>https://mcy0325.github.io/teamWebPage/container/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/oss/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
@@ -98,16 +95,10 @@
     <loc>https://mcy0325.github.io/teamWebPage/container/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/oss/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/container/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/oss/hugo-is-for-lovers/</loc>
@@ -129,8 +120,6 @@
     <loc>https://mcy0325.github.io/teamWebPage/tags/ipsum/</loc>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/container/migrate-from-jekyll/</loc>
-  </url><url>
-    <loc>https://mcy0325.github.io/teamWebPage/linux/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://mcy0325.github.io/teamWebPage/oss/migrate-from-jekyll/</loc>
   </url>
