@@ -6,23 +6,33 @@
     <description>Recent content in starting on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2015 13:50:46 +0200</lastBuildDate><atom:link href="https://mcy0325.github.io/teamWebPage/categories/starting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 13:50:46 +0200</lastBuildDate><atom:link href="https://mcy0325.github.io/teamWebPage/categories/starting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Command</title>
+      <link>https://mcy0325.github.io/teamWebPage/git/git-command/</link>
+      <pubDate>Tue, 23 May 2023 13:50:46 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/git/git-command/</guid>
+      <description>Command Git에서 주로 사용하는 명령어들을 정리해보았습니다.
+Git 기본 명령어 현재 상태 확인
+git status 원격 저장소와 연결 확인
+git remote git 저장소 생성하기
+git init git 저장소 Clone
+git clone [URL] git저장소에 코드 추가
+git add 커밋 생성
+git commit -m &amp;quot;message&amp;quot; 변경 사항 저장소에 푸시
+git push 원격 저장소의 변경 사항 확인
+git fetch 원격 저장소의 변경 사항 가져오기
+git pull Git Branch 관련 브랜치 생성
+git branch [name] 브랜치 이동</description>
+    </item>
+    
     <item>
       <title>Creating a new theme</title>
       <link>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
       <guid>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://mcy0325.github.io/teamWebPage/git/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/git/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>

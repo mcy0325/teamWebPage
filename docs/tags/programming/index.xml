@@ -6,23 +6,45 @@
     <description>Recent content in programming on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://mcy0325.github.io/teamWebPage/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://mcy0325.github.io/teamWebPage/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Outline</title>
+      <link>https://mcy0325.github.io/teamWebPage/git/git-outline/</link>
+      <pubDate>Tue, 23 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/git/git-outline/</guid>
+      <description>1. Git이란 무엇인가?  깃(Git)은 2005년에 개발된 &amp;lsquo;분산 버전관리 시스템(DVCS)&amp;lsquo;이다.
+컴퓨터 파일의 변경사항을 추적하고 여러명의 사용자들 간에 파일에 대한 작업을 조율하는데 사용된다.
+(참고: https://git-scm.com/book/ko/v2 Git 공식 사이트 한글 메뉴얼)
+즉, 주로 여러명의 개발자가 하나의 소프트웨어 개발 프로젝트에 참여할 때, 소스 코드를 관리하는데 주로 사용된다.</description>
+    </item>
+    
+    <item>
+      <title>Git Command</title>
+      <link>https://mcy0325.github.io/teamWebPage/git/git-command/</link>
+      <pubDate>Tue, 23 May 2023 13:50:46 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/git/git-command/</guid>
+      <description>Command Git에서 주로 사용하는 명령어들을 정리해보았습니다.
+Git 기본 명령어 현재 상태 확인
+git status 원격 저장소와 연결 확인
+git remote git 저장소 생성하기
+git init git 저장소 Clone
+git clone [URL] git저장소에 코드 추가
+git add 커밋 생성
+git commit -m &amp;quot;message&amp;quot; 변경 사항 저장소에 푸시
+git push 원격 저장소의 변경 사항 확인
+git fetch 원격 저장소의 변경 사항 가져오기
+git pull Git Branch 관련 브랜치 생성
+git branch [name] 브랜치 이동</description>
+    </item>
+    
     <item>
       <title>Categories Post</title>
       <link>https://mcy0325.github.io/teamWebPage/container/categories-post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
       <guid>https://mcy0325.github.io/teamWebPage/container/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Categories Post</title>
-      <link>https://mcy0325.github.io/teamWebPage/git/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/git/categories-post/</guid>
       <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
 categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
     </item>
@@ -53,16 +75,6 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
       <guid>https://mcy0325.github.io/teamWebPage/container/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://mcy0325.github.io/teamWebPage/git/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/git/linked-post/</guid>
       <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
 menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
     </item>
