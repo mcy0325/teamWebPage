@@ -2,9 +2,8 @@
 title = "Git Command"
 date = "2023-05-23T13:50:46+02:00"
 tags = ["git", "github", "programming", "oss"]
-categories = ["starting"]
-description = "This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content."
-banner = "img/banners/banner-1.jpg"
+categories = ["programming"]
+banner = "img/banners/command.jpg"
 authors = ["JeongJongMun"]
 +++
 
