@@ -1,19 +1,17 @@
 +++
-title = "Categories Post"
+title = "오픈소스"
 date = "2021-08-01T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming","lorem","pseudo"]
 banner = "img/banners/banner-4.jpg"
-authors = ["John Doe"]
+authors = ["LeeSeoJeong"]
 +++
 
-I'm a post with multiple categories in the frontmatter:
 
-    categories = ["programming","lorem","pseudo"]
+# 1. 오픈소스의 특징
+***
+ 오픈소스는 오픈 소스는 공개적으로 그 설계에 액세스할 수 있기 때문에 누구나 기술을 수정하고 공유할 수 있는 분산형 프로덕션 모델을 말합니다. 자유롭게 재배포 할 수 있으며 파생 저작물을 만들 수 있습니다. 다만 특정 개인 및 단체에 대한 차별을 금지하며, 사용 분야에 대한 차별도 금지하고 있습니다.
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
-
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
-
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+ # 2. 오픈소스의 중요성
+ ***
+  오픈 소스 소프트웨어는 소스가 공개되고 재배포가 허용되므로 저작자의 권리를 침해하거나 저작물이 악용될 여지가 큽니다. 따라서 저작물에 대한 법적인 권리와 의무를 명시하는 것이 중요합니다. 이를 위해 '라이선스'를 이용하며, 라이선스를 통해 본래 의도한 소프트웨어의 발전과 공익에 기여하려는 목표를 보호하고 참여를 촉진할 수 있습니다.
