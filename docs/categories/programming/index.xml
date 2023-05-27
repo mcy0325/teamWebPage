@@ -41,26 +41,6 @@ git branch [name] 브랜치 이동</description>
     </item>
     
     <item>
-      <title>Categories Post</title>
-      <link>https://mcy0325.github.io/teamWebPage/container/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/container/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Categories Post</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/oss/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
       <title>리눅스의 역사</title>
       <link>https://mcy0325.github.io/teamWebPage/linux/categories-post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
@@ -72,43 +52,25 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://mcy0325.github.io/teamWebPage/container/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>오픈소스</title>
+      <link>https://mcy0325.github.io/teamWebPage/oss/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://mcy0325.github.io/teamWebPage/container/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+      <guid>https://mcy0325.github.io/teamWebPage/oss/categories-post/</guid>
+      <description>1. 오픈소스의 특징  오픈소스는 오픈 소스는 공개적으로 그 설계에 액세스할 수 있기 때문에 누구나 기술을 수정하고 공유할 수 있는 분산형 프로덕션 모델을 말합니다. 자유롭게 재배포 할 수 있으며 파생 저작물을 만들 수 있습니다. 다만 특정 개인 및 단체에 대한 차별을 금지하며, 사용 분야에 대한 차별도 금지하고 있습니다.
+2. 오픈소스의 중요성  오픈 소스 소프트웨어는 소스가 공개되고 재배포가 허용되므로 저작자의 권리를 침해하거나 저작물이 악용될 여지가 큽니다. 따라서 저작물에 대한 법적인 권리와 의무를 명시하는 것이 중요합니다.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>컨테이너 명령어 정리</title>
+      <link>https://mcy0325.github.io/teamWebPage/container/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://mcy0325.github.io/teamWebPage/oss/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://mcy0325.github.io/teamWebPage/container/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/container/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/oss/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://mcy0325.github.io/teamWebPage/container/categories-post/</guid>
+      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
+categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  도커 컨테이너 시작 컨테이너 생성 - docker create 컨테이너 시작 - docker start 컨테이너 생성 후 시작 - docker run
+도커 컨테이너 종료 컨테이너 종료 - docker stop 컨테이너 강제 종료 - docker kill
+도커 컨테이너 목록 확인하기 실행중인 컨테이너 상태 확인 - docker ps 전체 컨테이너 상태 확인 - docker ps -a 컨테이너 상세 정보 확인 - docker inspect</description>
     </item>
     
   </channel>
