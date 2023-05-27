@@ -18,16 +18,6 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
     </item>
     
     <item>
-      <title>Categories Post</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/oss/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
       <title>리눅스의 역사</title>
       <link>https://mcy0325.github.io/teamWebPage/linux/categories-post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
@@ -39,21 +29,21 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
     </item>
     
     <item>
+      <title>오픈소스</title>
+      <link>https://mcy0325.github.io/teamWebPage/oss/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/oss/categories-post/</guid>
+      <description>1. 오픈소스의 특징  오픈소스는 오픈 소스는 공개적으로 그 설계에 액세스할 수 있기 때문에 누구나 기술을 수정하고 공유할 수 있는 분산형 프로덕션 모델을 말합니다. 자유롭게 재배포 할 수 있으며 파생 저작물을 만들 수 있습니다. 다만 특정 개인 및 단체에 대한 차별을 금지하며, 사용 분야에 대한 차별도 금지하고 있습니다.
+2. 오픈소스의 중요성  오픈 소스 소프트웨어는 소스가 공개되고 재배포가 허용되므로 저작자의 권리를 침해하거나 저작물이 악용될 여지가 큽니다. 따라서 저작물에 대한 법적인 권리와 의무를 명시하는 것이 중요합니다.</description>
+    </item>
+    
+    <item>
       <title>Linked post</title>
       <link>https://mcy0325.github.io/teamWebPage/container/linked-post/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
       <guid>https://mcy0325.github.io/teamWebPage/container/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/oss/linked-post/</guid>
       <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
 menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
     </item>
@@ -69,16 +59,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>Creating a new theme</title>
-      <link>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
       <title>리눅스 사용법</title>
       <link>https://mcy0325.github.io/teamWebPage/linux/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
@@ -87,6 +67,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>개념 Linux®는 오픈소스 운영 체제(OS)입니다. 운영 체제(Operating System, OS)는 CPU, 메모리, 스토리지처럼 시스템의 하드웨어와 리소스를 직접 관리하는 소프트웨어입니다. OS는 애플리케이션과 하드웨어 사이에서 모든 소프트웨어와 작업을 수행하는 물리적 리소스를 연결합니다
 Linux는 어떻게 작동하나요? OS를 자동차 엔진이라고 생각해 봅시다. 엔진은 자체적으로도 작동하지만 변속기와 차축 및 바퀴에 연결되면 차를 움직일 수 있습니다. 엔진이 제대로 작동하지 않으면 자동차는 움직이지 않게 됩니다.
 Linux는 UNIX와 유사하게 설계되었으나 발전을 거듭하며 전화기에서 슈퍼컴퓨터에 이르는 다양한 하드웨어에서 실행되고 있습니다. 모든 Linux 기반 OS에는 하드웨어 리소스를 관리하는 Linux 커널과 OS의 나머지를 구성하는 일련의 소프트웨어 패키지가 포함되어 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>주요 오픈 소스 라이선스</title>
+      <link>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</guid>
+      <description>1. 주요 오픈 소스 라이선스  오픈 소스 라이선스는 반환 의무를 가지는 라이선스와 반환의무를 가지지 않는 라이선스로 나눌 수 있습니다. 먼저 반환 의무를 가진 라이선스 세 가지를 소개하겠습니다.
+첫째, GNU GPL, General Public License는 가장 강력한 라이선스로, 어떤 형태로든 사용할 수 있으나 변경된 프로그램을 배포하는 경우 무조건 둘째, GNU AGPL, Affero GPL은 수정한 소스코드를 서버에서만 사용하는 사용자가 그 프로그램을 배포하지 않는 경우 소스코드를 얻을 수 없는 문제를 해결하기 위해 보완된 라이선스입니다.</description>
     </item>
     
   </channel>
