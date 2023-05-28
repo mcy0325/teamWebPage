@@ -7,7 +7,7 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories Post</title>
+<title>컨테이너 명령어 정리</title>
 <meta name="author" content="DevCows" />
 
 
@@ -36,7 +36,7 @@
 
 
 
-<link href="/teamWebPage/css/custom.css?1685177309" rel="stylesheet">
+<link href="/teamWebPage/css/custom.css?1685274165" rel="stylesheet">
 
 
 
@@ -66,7 +66,7 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Categories Post">
+<meta property="og:title" content="컨테이너 명령어 정리">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mcy0325.github.io/teamWebPage/container/categories-post/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
@@ -85,7 +85,7 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Categories Post">
+<meta name="twitter:title" content="컨테이너 명령어 정리">
 
 <meta name="twitter:image" content="https://mcy0325.github.io/teamWebPage/img/banners/banner-4.jpg">
 
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Categories Post logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Categories Post logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="컨테이너 명령어 정리 logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="컨테이너 명령어 정리 logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories Post - go to homepage</span>
+                    <span class="sr-only">컨테이너 명령어 정리 - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -306,7 +306,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories Post</h1>
+                <h1>컨테이너 명령어 정리</h1>
             </div>
         </div>
     </div>
@@ -361,12 +361,21 @@
                         
 
                         <div id="post-content">
-                          <p>I&rsquo;m a post with multiple categories in the frontmatter:</p>
-<pre><code>categories = [&quot;programming&quot;,&quot;lorem&quot;,&quot;pseudo&quot;]
-</code></pre>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.</p>
-<p>Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.</p>
-<p>Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.</p>
+                          <h3 id="도커-컨테이너-시작">도커 컨테이너 시작</h3>
+<p>컨테이너 생성 - docker create<br>
+컨테이너 시작 - docker start<br>
+컨테이너 생성 후 시작 - docker run</p>
+<h3 id="도커-컨테이너-종료">도커 컨테이너 종료</h3>
+<p>컨테이너 종료 - docker stop<br>
+컨테이너 강제 종료 - docker kill</p>
+<h3 id="도커-컨테이너-목록-확인하기">도커 컨테이너 목록 확인하기</h3>
+<p>실행중인 컨테이너 상태 확인 - docker ps   <br>
+전체 컨테이너 상태 확인 - docker ps -a   <br>
+컨테이너 상세 정보 확인 - docker inspect</p>
+<h3 id="도커-컨테이너-삭제">도커 컨테이너 삭제</h3>
+<p>컨테이너 삭제 - docker rm    <br>
+컨테이너 강제 종료 후 삭제 - docker rm -f    <br>
+컨테이너 실행 종료 후 자동 삭제 - docker run &ndash;rm</p>
 
                         </div>
                         
@@ -444,15 +453,15 @@
             
             
             <li>
-                <a href="/teamWebPage/categories/lorem">LOREM (4)</a>
+                <a href="/teamWebPage/categories/lorem">LOREM (3)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/programming">PROGRAMMING (7)</a>
+                <a href="/teamWebPage/categories/programming">PROGRAMMING (5)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/pseudo">PSEUDO (4)</a>
+                <a href="/teamWebPage/categories/pseudo">PSEUDO (3)</a>
             </li>
             
             <li>
@@ -490,19 +499,11 @@
             </li>
             
             <li >
-                <a href="/teamWebPage/tags/go"><i class="fas fa-tags"></i> go</a>
-            </li>
-            
-            <li >
                 <a href="/teamWebPage/tags/golang"><i class="fas fa-tags"></i> golang</a>
             </li>
             
             <li >
                 <a href="/teamWebPage/tags/hugo"><i class="fas fa-tags"></i> hugo</a>
-            </li>
-            
-            <li >
-                <a href="/teamWebPage/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
             </li>
             
             <li >
@@ -592,14 +593,14 @@
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://mcy0325.github.io/teamWebPage/container/categories-post/">
+                        <a href="https://mcy0325.github.io/teamWebPage/linux/categories-post/">
                           
-                            <img src="/teamWebPage/img/banners/banner-4.jpg" class="img-responsive" alt="Categories Post">
+                            <img src="/teamWebPage/img/banners/banner-4.jpg" class="img-responsive" alt="리눅스의 역사">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://mcy0325.github.io/teamWebPage/container/categories-post/">Categories Post</a></h5>
+                        <h5><a href="https://mcy0325.github.io/teamWebPage/linux/categories-post/">리눅스의 역사</a></h5>
                     </div>
                 </div>
                 

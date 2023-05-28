@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 13:50:46 +0200</lastBuildDate><atom:link href="https://mcy0325.github.io/teamWebPage/categories/starting/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating a new theme</title>
-      <link>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
       <title>리눅스 사용법</title>
       <link>https://mcy0325.github.io/teamWebPage/linux/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
@@ -36,6 +26,21 @@ Linux는 UNIX와 유사하게 설계되었으나 발전을 거듭하며 전화�
       <guid>https://mcy0325.github.io/teamWebPage/oss/creating-a-new-theme/</guid>
       <description>1. 주요 오픈 소스 라이선스  오픈 소스 라이선스는 반환 의무를 가지는 라이선스와 반환의무를 가지지 않는 라이선스로 나눌 수 있습니다. 먼저 반환 의무를 가진 라이선스 세 가지를 소개하겠습니다.
 첫째, GNU GPL, General Public License는 가장 강력한 라이선스로, 어떤 형태로든 사용할 수 있으나 변경된 프로그램을 배포하는 경우 무조건 둘째, GNU AGPL, Affero GPL은 수정한 소스코드를 서버에서만 사용하는 사용자가 그 프로그램을 배포하지 않는 경우 소스코드를 얻을 수 없는 문제를 해결하기 위해 보완된 라이선스입니다.</description>
+    </item>
+    
+    <item>
+      <title>컨테이너 개념</title>
+      <link>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://mcy0325.github.io/teamWebPage/container/creating-a-new-theme/</guid>
+      <description>컨테이너 • OS 커널을 여러 개의 격리된 공간으로 격리(Isolation)하여 독립적인 여러 개의 시스템처럼 사용하는 가상화
+• 호스트 OS의 커널을 공유하며 OS를 새로 설치하지 않음
+• 커널을 공유하는 방식이기 때문에 실행 속도가 빠르고, 성능 상의 손실이 거의 없음
+• 사용자에게는 가상 머신처럼 보임
+• 다른 OS를 사용할 수 없음
+컨테이너 이미지란 • 컨테이너 실행을 위한 일종의 템플릿 파일, 그림 파일 아님
+• 소스 코드, 라이브러리, 종속성, 도구 및 응용 프로그램을 실행하는데 필요한 기타 파일을 포함하는 불변(변경 불가) 파일</description>
     </item>
     
   </channel>
